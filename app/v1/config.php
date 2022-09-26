@@ -9,7 +9,7 @@ if($PROJECT_MODE=="" && in_array($_SERVER['HTTP_HOST'],["localhost","127.0.0.1"]
 }else{
   $PROJECT_MODE="LIVE";
 }
-
+//hello amrit
 if($PROJECT_MODE=="LIVE"){
   //for live
   $hostName = "localhost";
